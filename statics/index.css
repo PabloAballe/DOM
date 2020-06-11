@@ -15,7 +15,7 @@ body {
 nav{
   background-color: #202020;
   color: rgb(165, 159, 159);
-  padding: 0%;
+
 }
 h1,h2{
   font-family: 'Orbitron', sans-serif;
@@ -49,6 +49,7 @@ padding-top: 10px;
 width: 100%;
 height: 200px;
 margin-top: 10px;
+
 }
 .portada{
   /* The image used */
@@ -58,6 +59,7 @@ margin-top: 10px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.5;
 }
 
 .inicio{
@@ -68,7 +70,7 @@ border-top-left-radius:  30px;
 border-bottom-right-radius:  30px;
 margin: 20px;
 text-align: justify;
-
+border: 1px solid #FFD548;
 }
 .post{
   padding: 2%;
@@ -77,6 +79,7 @@ text-align: justify;
   margin: 20px;
   border-top-left-radius:  30px;
   border-bottom-right-radius:  30px;
+  border: 1px solid #FFD548;
 }
 .post h2, .inicio h1, .contact{
   border-bottom: 2px solid #FFD548;
@@ -88,10 +91,19 @@ footer{
   padding: 20px;
 
 }
-footer .contacto:hover{
+a:hover{
   border-bottom: 2px solid #FFD548;
   border-radius: 5px;
   padding-bottom: 10px;
-  
+  color: white;
 
+}
+/* quito el estilo a los enlaces */
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+a{
+  color:white;
+  color: rgb(165, 159, 159);
+  margin: 20px;
 }
