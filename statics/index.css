@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+html{
+  padding: 0px;
+  background-color: #202020;
+  color: white;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+  background-color: #202020;
+  color: rgb(165, 159, 159);
+  padding: 0%;
+}
+h1,h2{
+  font-family: 'Orbitron', sans-serif;
+}
+
+.nav:hover{
+  color: white;
+  border-bottom: 2px solid #FFD548;
+  border-radius: 5px;
+  padding-bottom: 10px;
+
+}
+ul{
+list-style: none;
+width: 100%;
+  text-align: center;
+padding-top: 10px;
+}
+
+#paginas li{
+  display: inline;
+  padding: 2%;
+  font-size: 150%;
+  margin: 5px;
+}
+#pagina li a {
+    float: left;
+
+}
+.cabecera{
+width: 100%;
+height: 200px;
+margin-top: 10px;
+}
+.portada{
+  /* The image used */
+  background-image: url("../assets/catedral.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inicio{
+  background-color: #4B010A;
+  color: white;
+padding: 2%;
+border-top-left-radius:  30px;
+border-bottom-right-radius:  30px;
+margin: 20px;
+text-align: justify;
+
+}
+.post{
+  padding: 2%;
+  text-align: justify;
+  background-color: rgb(165, 159, 159);
+  margin: 20px;
+  border-top-left-radius:  30px;
+  border-bottom-right-radius:  30px;
+}
+.post h2, .inicio h1, .contact{
+  border-bottom: 2px solid #FFD548;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+footer{
+  text-align: center;
+  padding: 20px;
+
+}
+footer .contacto:hover{
+  border-bottom: 2px solid #FFD548;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  
+
+}
